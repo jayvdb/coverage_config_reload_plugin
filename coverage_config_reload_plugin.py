@@ -12,7 +12,7 @@ def get_coverage_config():
     return config
 
 def read_config_files(config):
-    config_filenames = config.config_files.copy()
+    config_filenames = config.config_files[:]
     for filename in config_filenames:
         prefix = '' if filename == '.coveragerc' else 'coverage:'
         config.from_file(filename, section_prefix=prefix)

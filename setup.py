@@ -20,7 +20,7 @@ Development Status :: 3 - Alpha
 
 setup(
     name='coverage_config_reload_plugin',
-    version='0.1',
+    version='0.2.0',
     description='coverage.py config reload plugin',
     author='John Vandenberg',
     author_email='jayvdb@gmail.com',
